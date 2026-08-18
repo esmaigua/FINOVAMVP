@@ -34,10 +34,13 @@ export default defineConfig(({ mode }) => {
       port: parseInt(process.env.PORT || '8443'),
       strictPort: true,
       watch: { ignored: ['**/.figma/**'] },
+      // Corrección para permitir túneles de ngrok u otras URLs públicas
+      allowedHosts: true, 
     },
     preview: {
       host: '0.0.0.0',
       port: parseInt(process.env.PORT || '8443'),
+      allowedHosts: true,
     },
   }
 })
