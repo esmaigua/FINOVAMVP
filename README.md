@@ -33,9 +33,9 @@ cd FINOVAMVP
 Esto creará el entorno encapsulado (node_modules) necesario para el proyecto.
 
 pnpm install
-Iniciar el servidor de desarrollo:
+**Iniciar el servidor de desarrollo:**
 
 pnpm run dev
-Ver la aplicación:
+**Ver la aplicación:**
 Abre tu navegador web y dirígete a:
 http://localhost:8443 (el puerto puede variar, revisa la salida de tu terminal).
